@@ -1,0 +1,650 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: black;
+    color: white;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-seri;
+    margin: 0;
+    padding: 12px 0px;
+    
+}
+
+.nav-uber{
+    display: inline-flex;
+    margin: 0 ;
+    padding-left: 120px;;
+}
+
+.nav-uber h5{
+    display: flex;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.nav-uber h5:hover{
+    cursor: pointer;
+}
+
+.navigation-bar{
+    display: inline-flex;
+}
+
+.navigation-bar ul{
+    display: flex;
+    margin: 0;
+    gap: 30px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navigation-bar li:hover{
+    cursor: pointer;
+}
+
+.nav-right{
+    display: inline-flex;
+    right: 8%;
+    position: absolute;
+     
+}
+
+.nav-right button{
+    border: 0;
+    border-radius: 15px;
+    padding: 8px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.nav-right .b1{
+    background-color: transparent;
+    color: #fff;
+}
+.nav-right .b1:hover{
+    background-color: #4f4e4e;
+} 
+
+.nav-right .b2{
+    background-color: transparent;
+    color: #fff;
+}
+.nav-right .b2:hover{
+    background-color: #4f4e4e;
+}
+
+.nav-right .b3{
+    background-color: transparent;
+    color: #fff;
+}
+.nav-right .b3:hover{
+    background-color: #4f4e4e;
+}
+
+.nav-right .b4:hover{
+    background-color: #dadada;
+}
+
+
+
+.page1{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-seri;
+    padding: 64px 64px;
+}
+
+.page1 .page1-text{
+    align-items: center;
+}
+
+.page1-text h1{
+    font-size: 52px;
+    height: 128px;
+    width: 458px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.page1-text p{
+    margin-left: 100px;   
+}
+
+.page1-img img{
+    height: 698px;
+    position: absolute;
+    right: 180px;
+}
+.page1-img{
+    height: 698px;
+}
+
+.form{
+    background-color: transparent;
+    width: 396px;
+    margin-left: 100px;
+}
+
+
+.form input{
+    display: flex;
+    height: 47px;
+    width: 396px;
+    gap: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.form button{
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 20px;
+}
+
+.suggestions{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 50px 164px;
+}
+
+.suggestions h1{
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.boxes{
+    display: inline-flex;
+    background-color: #fff;
+    align-items: center;
+}
+
+.box1{
+    width: 362px;
+    height: 150px;
+    background-color: #F3F3F3;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    /* display: inline-flex; */
+}
+.box1 h5{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    display: flex;
+    padding: 10px 10px;
+}
+.box1 p{
+    font-size: 12px;
+    line-height: 20px;
+    width: 190px;
+    margin: 0;
+    display: flex;
+    padding: 10px 10px;
+}
+.box1 button{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 10px 12px;
+    background-color: #fff;
+    transition-duration: 0.4s;
+}
+.box1 img{
+    position: absolute;
+    top: 143%;
+    left: 28%;
+    width: 126px;
+}
+.box1:hover{
+    cursor: pointer;
+}
+.box1 button:hover{
+    cursor: pointer;
+    background-color: #cccccc;
+}
+
+.box2{
+    width: 362px;
+    height: 150px;
+    background-color: #F3F3F3;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.box2 h5{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    display: flex;
+    padding: 10px 10px;
+}
+.box2 p{
+    font-size: 12px;
+    line-height: 20px;
+    width: 190px;
+    margin: 0;
+    display: flex;
+    padding: 10px 10px;
+}
+.box2 img{
+    position: absolute;
+    width: 126px;
+    top: 143%;
+    left: 54%;
+}
+.box2 button{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 10px 12px;
+    background-color: #fff;
+    transition-duration: 0.4s;
+}
+.box2:hover{
+    cursor: pointer;
+}
+.box2 button:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+
+.box3{
+    width: 362px;
+    height: 150px;
+    background-color: #F3F3F3;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.box3 h5{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    display: flex;
+    padding: 10px 10px;
+}
+.box3 p{
+    font-size: 12px;
+    line-height: 20px;
+    width: 190px;
+    margin: 0;
+    display: flex;
+    padding: 10px 10px;
+}
+.box3 img{
+    position: absolute;
+    width: 126px;
+    top: 143%;
+    left: 81%;
+}
+.box3 button{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 10px 12px;
+    background-color: #ffffff;
+    transition-duration: 0.4s;
+}
+.box3:hover{
+    cursor: pointer;
+}
+.box3 button:hover{
+    cursor: pointer;
+    background-color: #cccccc;
+}
+
+.page2{
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-seri;
+    padding: 64px 180px;
+}
+
+.page2-img img{
+    height: 558px;
+}   
+
+.page2-text h1{
+    font-size: 52px;
+    padding-left: 130px;
+}
+
+.page2-text p{
+    font-size: 16px;
+    padding-left: 130px;
+}
+
+.page2 button{
+    background-color: #000;
+    color: #fff;
+    margin-left: 130px;
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    transition-duration: 0.4s;
+}
+.page2 button:hover{
+    cursor: pointer;
+    background-color: #3c3c3c
+}
+
+.page2 a{
+    color: #000;
+    font-size: 16px;
+    text-underline-offset: 8px;
+    padding-left: 20px;
+}
+
+.page3{
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-seri;
+    padding: 64px 180px;
+}
+
+.page3-img img{
+    height: 558px;
+}
+
+.page3-text h1{
+    font-size: 52px;
+    padding-right: 140px;
+}
+
+.page3-text p{
+    font-size: 16px;
+    padding-right: 140px;
+}
+
+.page3-text button{
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 25px;
+    transition-duration: 0.04s;
+}
+.page3 button:hover{
+    cursor: pointer;
+    background-color: #3c3c3c
+}
+
+.page3-text a{
+    text-underline-offset: 8px;
+    margin-left: 20px;
+    color: #000;
+}
+
+.page4{
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-seri;
+    padding: 64px 180px;
+}
+
+.page4-img img{
+    height: 558px;
+}
+
+.page4-text h3{
+    font-size: 36px;
+    padding-left: 130px;
+    margin-top: 150px;
+}
+
+.page4-text p{
+    font-size: 16px;
+    padding-left: 130px;
+}
+
+.page4-text button{
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 25px;
+    margin-left: 130px;
+}
+.page4 button:hover{
+    cursor: pointer;
+    background-color: #3c3c3c;
+}
+
+.page5{
+    background-color: #F6F6F6;
+    color: #000;
+    /* display: flex; */
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-seri;
+    padding: 40px 180px;
+}
+
+.page5-text h2{
+    font-size: 36px;
+    display: flex;
+    position: relative;
+
+}
+
+.page5 .download-boxes{
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-boxes .dbox1{
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 198px;
+    width: 558px;
+}
+.dbox1 img{
+    height: 150px;
+    translate: -28px;
+}
+.dbox1 h1{
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.dbox1 p{
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0px 10px; 
+}
+.dbox1:hover{
+    cursor: pointer;
+}
+
+.download-boxes .dbox2{
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 198px;
+    width: 558px;
+}
+.dbox2 img{
+    height: 150px;
+    translate: -28px;
+}
+.dbox2 h2{
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.dbox2 p{
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0px 10px;
+}
+.dbox2:hover{
+    cursor: pointer;
+}
+
+
+.footerpage{
+    background-color: #000;
+    color: #fff;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-seri;
+    padding: 64px 180px;
+}
+
+.footer-uber{
+    padding: 20px 0px;
+}
+.footer-uber a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-text a{
+    color: #fff;
+    text-underline-offset: 50px;
+    text-decoration: none;
+}
+.footer-text a:hover{
+    text-decoration: underline;
+}
+
+.footerpage table{
+    width: 90%;
+    text-align: left;
+    margin-top: 50px;
+}
+th{
+    font-size: 18px;
+    font-weight: 500;
+}
+td{
+    font-size: 14px;
+}
+td:hover{
+    color: rgb(70, 70, 70);
+}
+th, td{
+    padding: 10px 0px;
+}
+
+.social{
+    /* background-color: #4f4e4e; */
+    height: 48px;
+    padding: 12px 0px;
+    position: relative;
+}
+
+.social .apps{
+    display: flex;
+    background-color: #000;
+    height: 48px;
+    width: 558px;
+    justify-content: space-between;
+}
+
+.apps button{
+    padding: 10px 20px;
+    border-bottom: transparent;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    border-color: transparent;
+}
+.apps button:hover{
+    background-color: #565555;
+}
+
+.social .location{
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    right: 0%;
+    translate: 0px -45px;
+}
+
+.social .location button{
+    margin-right: 15px;
+    background-color: transparent;
+    color: #fff;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.social .location button:hover{
+    background-color: #565555;
+}
+
+.playbtns{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.playstore img{
+    width: 128px;
+    margin-right: 10px;
+}
+
+.appstore img{
+    width: 128px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright p{
+    color: #AFAFAF;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.copyright .btn a{
+    color: #AFAFAF;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+.copyright .btn a:hover{
+    color: #888888;
+}
